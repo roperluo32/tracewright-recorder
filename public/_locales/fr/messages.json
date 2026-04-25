@@ -1,0 +1,4 @@
+{
+  "extensionName": { "message": "Tracewright Recorder" },
+  "extensionDescription": { "message": "Enregistrez localement des parcours navigateur et exportez des tests Playwright clairs." }
+}

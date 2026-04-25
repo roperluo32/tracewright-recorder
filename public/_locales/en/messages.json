@@ -1,0 +1,4 @@
+{
+  "extensionName": { "message": "Tracewright Recorder" },
+  "extensionDescription": { "message": "Record browser flows locally and export clean Playwright tests." }
+}

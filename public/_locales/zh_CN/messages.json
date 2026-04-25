@@ -1,0 +1,4 @@
+{
+  "extensionName": { "message": "Tracewright Recorder" },
+  "extensionDescription": { "message": "在本地录制浏览器流程，并导出清晰的 Playwright 测试代码。" }
+}

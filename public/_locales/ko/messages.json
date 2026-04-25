@@ -1,0 +1,4 @@
+{
+  "extensionName": { "message": "Tracewright Recorder" },
+  "extensionDescription": { "message": "브라우저 흐름을 로컬에서 기록하고 깔끔한 Playwright 테스트로 내보냅니다." }
+}

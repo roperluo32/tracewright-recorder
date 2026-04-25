@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tracewright Recorder Privacy Policy</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #172033;
+        background: #f7f2e8;
+      }
+      main {
+        max-width: 840px;
+        margin: 0 auto;
+        padding: 56px 20px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 36px;
+      }
+      h2 {
+        margin-top: 32px;
+      }
+      p,
+      li {
+        color: #536076;
+        font-size: 16px;
+        line-height: 1.7;
+      }
+      strong {
+        color: #172033;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Tracewright Recorder Privacy Policy</h1>
+      <p><strong>Last updated:</strong> April 25, 2026</p>
+      <p>Tracewright Recorder is a local browser extension that records user-initiated browser flows and exports Playwright test drafts.</p>
+
+      <h2>Data Handling</h2>
+      <ul>
+        <li>The extension records only after the user clicks Start recording.</li>
+        <li>Recording history and settings are stored in local browser storage.</li>
+        <li>The extension does not upload page content, screenshots, user input, recording steps, or generated tests to any server.</li>
+        <li>Password fields, hidden fields, and token-like fields are redacted by default.</li>
+        <li>Users can clear local recording history from the options page.</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>activeTab:</strong> accesses the active tab only after the user starts recording.</li>
+        <li><strong>scripting:</strong> injects the local recorder into the active tab.</li>
+        <li><strong>storage:</strong> saves local settings and recording history.</li>
+        <li><strong>tabs:</strong> reads the active tab title and URL for recording metadata.</li>
+        <li><strong>downloads:</strong> downloads generated .spec.ts files.</li>
+      </ul>
+
+      <h2>What Tracewright Does Not Include</h2>
+      <ul>
+        <li>No account system.</li>
+        <li>No cloud sync.</li>
+        <li>No remote test execution.</li>
+        <li>No third-party analytics SDK.</li>
+      </ul>
+    </main>
+  </body>
+</html>
