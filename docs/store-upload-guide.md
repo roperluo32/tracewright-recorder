@@ -6,7 +6,9 @@
 - Chrome package: `release/tracewright-recorder-0.1.0-chrome.zip`
 - Edge package: `release/tracewright-recorder-0.1.0-edge.zip`
 - Firefox package: `release/tracewright-recorder-0.1.0-firefox.zip`
-- Privacy page: `site/privacy.html`
+- Privacy page source: `site/privacy.html`
+- Privacy policy URL: `https://cdn.jsdelivr.net/gh/roperluo32/tracewright-recorder@main/site/privacy.html`
+- GitHub repository: `https://github.com/roperluo32/tracewright-recorder`
 - Store copy source: `docs/store-listing.md`
 - Localized copy source: `docs/store-listing-localized.md`
 - Store asset index: `docs/store-assets.md`
@@ -18,7 +20,7 @@ Use Developer Tools where available.
 ## Support
 
 - Support email: `858338966@qq.com`
-- Support site: use the public GitHub repository or GitHub Pages URL after deployment.
+- Support site: `https://github.com/roperluo32/tracewright-recorder`
 
 ## Permission Explanation
 
@@ -42,5 +44,6 @@ Tracewright Recorder records only after the user clicks Start recording. It runs
 
 - Confirm package permissions show no broad host permissions.
 - Confirm privacy policy URL is public.
+- Use the jsDelivr privacy URL for store submission because this GitHub account currently redirects Pages traffic to an unavailable account-level custom domain.
 - Confirm screenshots match the current free local-only feature set.
 - Confirm there are no mentions of account login, cloud sync, paid plans, or remote test execution.
